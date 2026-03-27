@@ -1,18 +1,29 @@
-# Introduction to Slate!
+---
+title: Introduction to Slate!
+docTags: 
+createdAt: Tue Feb 24 2026 14:52:00 GMT+0000 (Coordinated Universal Time)
+updatedAt: Fri Mar 27 2026 10:11:45 GMT+0000 (Coordinated Universal Time)
+---
 
-[Slate](http://slatejs.org) is a *completely* customizable framework for building rich text editors. Testing again.
+[**Slate**](http://slatejs.org) is a *completely* customizable framework for building rich text editors. Testing again.
 
-Slate lets you build rich, intuitive editors like those in [Medium](https://medium.com/), [Dropbox Paper](https://www.dropbox.com/paper) or [Google Docs](https://www.google.com/docs/about/)—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.
+Slate lets you build rich, intuitive editors like those in [**Medium**](https://medium.com/), [**Dropbox Paper**](https://www.dropbox.com/paper) or [**Google Docs**](https://www.google.com/docs/about/)—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.
 
-It can do this because all of its logic is implemented with a series of plugins, so you aren't ever constrained by what *is* or *isn't* in "core". You can think of it like a pluggable implementation of `contenteditable` built on top of [React](https://facebook.github.io/react/). It was inspired by libraries like [Draft.js](https://facebook.github.io/draft-js/), [Prosemirror](http://prosemirror.net/) and [Quill](http://quilljs.com/).
+This is my new line.
 
-> 🤖 **Slate is currently in beta**. Its core API is usable now, but you might need to pull request fixes for advanced use cases. Some of its APIs are not "finalized" and will (breaking) change over time as we find better solutions.
+![]()
+
+It can do this because all of its logic is implemented with a series of plugins, so you aren't ever constrained by what *is* or *isn't* in "core". You can think of it like a pluggable implementation of `contenteditable` built on top of [**React**](https://facebook.github.io/react/). It was inspired by libraries like [**Draft.js**](https://facebook.github.io/draft-js/), [**Prosemirror**](http://prosemirror.net/) and [**Quill**](http://quilljs.com/).
+
+:::BlockQuote
+🤖 **Slate is currently in beta**. Its core API is usable now, but you might need to pull request fixes for advanced use cases. Some of its APIs are not "finalized" and will (breaking) change over time as we find better solutions.
+:::
 
 ## Why?
 
-Why create Slate? Well... *(Beware: this section has a few of* [*my*](https://github.com/ianstormtaylor) *opinions!)*
+Why create Slate? Well... *(Beware: this section has a few of* [**my**](https://github.com/ianstormtaylor) *opinions!)*
 
-Before creating Slate, I tried a lot of the other rich text libraries out there—[**Draft.js**](https://facebook.github.io/draft-js/), [**Prosemirror**](http://prosemirror.net/), [**Quill**](http://quilljs.com/), etc. What I found was that while getting simple examples to work was easy enough, once you started trying to build something like [Medium](https://medium.com/), [Dropbox Paper](https://www.dropbox.com/paper) or [Google Docs](https://www.google.com/docs/about/), you ran into deeper issues...
+Before creating Slate, I tried a lot of the other rich text libraries out there—[**Draft.js**](https://facebook.github.io/draft-js/), [**Prosemirror**](http://prosemirror.net/), [**Quill**](http://quilljs.com/), etc. What I found was that while getting simple examples to work was easy enough, once you started trying to build something like [**Medium**](https://medium.com/), [**Dropbox Paper**](https://www.dropbox.com/paper) or [**Google Docs**](https://www.google.com/docs/about/), you ran into deeper issues...
 
 - **The editor's "schema" was hardcoded and hard to customize.** Things like bold and italic were supported out of the box, but what about comments, or embeds, or even more domain-specific needs?
 - **Transforming the documents programmatically was very convoluted.** Writing as a user may have worked, but making programmatic changes, which is critical for building advanced behaviors, was needlessly complex.
@@ -30,7 +41,7 @@ Which brings me to how Slate solves all of that...
 
 ## Principles
 
-Slate tries to solve the question of "[Why?](Introduction.md#why)" with a few principles:
+Slate tries to solve the question of "[**Why?**](./#why)" with a few principles:
 
 1. **First-class plugins.** The most important part of Slate is that plugins are first-class entities. That means you can *completely* customize the editing experience, to build complex editors like Medium's or Dropbox's, without having to fight against the library's assumptions.
 2. **Schema-less core.** Slate's core logic assumes very little about the schema of the data you'll be editing, which means that there are no assumptions baked into the library that'll trip you up when you need to go beyond the most basic use cases.
@@ -58,29 +69,29 @@ To get a sense for how you might use Slate, check out a few of the examples:
 - [**Paste HTML**](https://www.slatejs.org/examples/paste-html) — showing how to use an HTML serializer to handle pasted HTML.
 - [**Mentions**](https://www.slatejs.org/examples/mentions) — showing how to use inline void nodes for simple @-mentions.
 
-Each example includes a **View Source** link to the code that implements it. And we have [other examples](https://github.com/ianstormtaylor/slate/tree/master/site/examples) too.
+Each example includes a **View Source** link to the code that implements it. And we have [**other examples**](https://github.com/ianstormtaylor/slate/tree/master/site/examples) too.
 
 If you have an idea for an example that shows a common use case, pull request it!
 
 ## Documentation
 
-If you're using Slate for the first time, check out the [Getting Started](http://docs.slatejs.org/walkthroughs/01-installing-slate) walkthroughs and the [Concepts](http://docs.slatejs.org/concepts) to familiarize yourself with Slate's architecture and mental models.
+If you're using Slate for the first time, check out the [**Getting Started**](http://docs.slatejs.org/walkthroughs/01-installing-slate) walkthroughs and the [**Concepts**](http://docs.slatejs.org/concepts) to familiarize yourself with Slate's architecture and mental models.
 
 - [**Walkthroughs**](http://docs.slatejs.org/walkthroughs)
 - [**Concepts**](http://docs.slatejs.org/concepts)
 - [**FAQ**](http://docs.slatejs.org/general/faq)
 - [**Resources**](http://docs.slatejs.org/general/resources)
 
-If even that's not enough, you can always [read the source itself](https://github.com/ianstormtaylor/slate/tree/master/packages), which is heavily commented.
+If even that's not enough, you can always [**read the source itself**](https://github.com/ianstormtaylor/slate/tree/master/packages), which is heavily commented.
 
 There are also translations of the documentation into other languages:
 
-- [中文](https://doodlewind.github.io/slate-doc-cn/)
+- [**中文**](https://doodlewind.github.io/slate-doc-cn/)
 
 If you're maintaining a translation, feel free to pull request it here!
 
 ## Contributing!
 
-All contributions are super welcome! Check out the [Contributing instructions](general/contributing.md) for more info!
+All contributions are super welcome! Check out the [**Contributing instructions**](general/contributing.md) for more info!
 
-Slate is [MIT-licensed](https://github.com/ianstormtaylor/slate/tree/f6bfe034d707693488c38da77537fd36cb8856cf/License.md).
+Slate is [**MIT-licensed**](https://github.com/ianstormtaylor/slate/tree/f6bfe034d707693488c38da77537fd36cb8856cf/License.md).

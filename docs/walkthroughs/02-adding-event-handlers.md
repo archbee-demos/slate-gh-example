@@ -1,6 +1,13 @@
-# Adding Event Handlers
+---
+title: Adding Event Handlers
+docTags: 
+createdAt: Tue Feb 24 2026 14:52:00 GMT+0000 (Coordinated Universal Time)
+updatedAt: Thu Mar 19 2026 17:26:43 GMT+0000 (Coordinated Universal Time)
+---
 
 **Okay, so you've got Slate installed** and rendered on the page, and when you type in it, you can see the changes reflected. But you want to do more than just type a plaintext string.
+
+
 
 What makes Slate great is how easy it is to customize. Just like other React components you're used to, Slate allows you to pass in handlers that are triggered on certain events.
 
