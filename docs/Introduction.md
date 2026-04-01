@@ -2,12 +2,14 @@
 title: Introduction to Slate!
 docTags: 
 createdAt: Wed Apr 01 2026 16:27:38 GMT+0000 (Coordinated Universal Time)
-updatedAt: Wed Apr 01 2026 16:55:41 GMT+0000 (Coordinated Universal Time)
+updatedAt: Wed Apr 01 2026 17:00:46 GMT+0000 (Coordinated Universal Time)
 ---
 
 [**Slate**](http://slatejs.org) is a *completely* customizable framework for building rich text editors. Testing again.
 
 Slate lets you build rich, intuitive editors like those in [**Medium**](https://medium.com/), [**Dropbox Paper**](https://www.dropbox.com/paper) or [**Google Docs**](https://www.google.com/docs/about/)—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.
+
+![](https://api.archbee.com/api/optimize/nnXudRKm4KkQ_ECeAi3d2/LhdNfsEIQKuhjiAsrfJHu_archbee-logo-light.png)
 
 It can do this because all of its logic is implemented with a series of plugins, so you aren't ever constrained by what *is* or *isn't* in "core". You can think of it like a pluggable implementation of `contenteditable` built on top of [**React**](https://facebook.github.io/react/). It was inspired by libraries like [**Draft.js**](https://facebook.github.io/draft-js/), [**Prosemirror**](http://prosemirror.net/) and [**Quill**](http://quilljs.com/).
 
