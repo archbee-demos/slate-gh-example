@@ -1,0 +1,26 @@
+---
+title: PointRef
+docTags: 
+createdAt: Sun Jun 14 2026 12:31:23 GMT+0000 (Coordinated Universal Time)
+---
+
+`PointRef` objects keep a specific point in a document synced over time as new operations are applied to the editor. You can access their property `current` at any time for the up-to-date `Point` value.
+
+```typescript
+interface PointRef {
+  current: Point | null
+  affinity: 'forward' | 'backward' | null
+  unref(): Point | null
+}
+```
+
+- :Link[Static methods]{label="Static methods" overridedLabel="Static methods" spaceId docId="N8oItSLBEOdY0lVkV0PzJ" version="v2" docAnchorId="#static-methods" loadingMethod="dynamic" newTab="false" href="point-ref.mdx"}
+  - :Link[Transform methods]{label="Transform methods" overridedLabel="Transform methods" spaceId docId="N8oItSLBEOdY0lVkV0PzJ" version="v2" docAnchorId="#trasnform-methods" loadingMethod="dynamic" newTab="false" href="point-ref.mdx"}
+
+## Static methods
+
+### Transform methods
+
+### `PointRef.transform(ref: PointRef, op: Operation)`
+
+Transform the point refs current value by an `op`.

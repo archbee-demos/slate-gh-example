@@ -1,0 +1,16 @@
+---
+title: Location Types
+docTags: 
+createdAt: Sun Jun 14 2026 12:31:23 GMT+0000 (Coordinated Universal Time)
+---
+
+The `Location` interface is a union of the ways to refer to a specific location in a Slate document: paths, points or ranges. Methods will often accept a `Location` instead of requiring only a `Path`, `Point` or `Range`.
+
+```typescript
+type Location = Path | Point | Range
+```
+
+- [Location](location.mdx)
+- [Path](path.mdx)
+- [Point](point.mdx)
+- [Range](range.mdx)
