@@ -5,7 +5,7 @@ createdAt: Wed Apr 01 2026 16:27:38 GMT+0000 (Coordinated Universal Time)
 updatedAt: Wed Apr 01 2026 17:00:46 GMT+0000 (Coordinated Universal Time)
 ---
 
-[**Slate**](http://slatejs.org) is a *completely* customizable framework for building rich text editors. Testing again.
+[**Slate**](http://slatejs.org) is a *completely* customizable framework for building rich text editors. Testing again....
 
 Slate lets you build rich, intuitive editors like those in [**Medium**](https://medium.com/), [**Dropbox Paper**](https://www.dropbox.com/paper) or [**Google Docs**](https://www.google.com/docs/about/)—which are becoming table stakes for applications on the web—without your codebase getting mired in complexity.
 
