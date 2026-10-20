@@ -1,0 +1,22 @@
+---
+title: Span API
+docTags: 
+createdAt: Tue May 05 2026 15:31:38 GMT+0000 (Coordinated Universal Time)
+---
+
+A `Span` is a low-level way to refer to a `Range` using `Element` as the end points instead of a `Point` which requires the use of leaf text nodes.
+
+```typescript
+type Span = [Path, Path]
+```
+
+- :Link[Static methods]{label="Static methods" overridedLabel="Static methods" spaceId docId="q2P5qyDQOMNzO12e7CKRt" version="v2" docAnchorId="#static-methods" loadingMethod="dynamic" newTab="false" href="span.mdx"}
+  - :Link[Check methods]{label="Check methods" overridedLabel="Check methods" spaceId docId="q2P5qyDQOMNzO12e7CKRt" version="v2" docAnchorId="#check-methods" loadingMethod="dynamic" newTab="false" href="span.mdx"}
+
+## Static Methods
+
+### Check Methods
+
+### `Span.isSpan(value: any) => value is Span`
+
+Check if a `value` implements the `Span` interface.
